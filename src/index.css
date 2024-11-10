@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Анимация "Welcome to UStudy" с эффектами появления и исчезновения */
+/* Мега-анимация для "Welcome to UStudy" */
+@keyframes welcomeMegaAnimation {
+  0% {
+    opacity: 0;
+    filter: blur(8px);
+    letter-spacing: 10px;
+  }
+  20% {
+    opacity: 1;
+    filter: blur(0);
+    letter-spacing: 3px;
+  }
+  80% {
+    opacity: 1;
+    letter-spacing: 5px;
+  }
+  100% {
+    opacity: 0;
+    letter-spacing: 15px;
+    color: rgba(255, 255, 255, 0);
+  }
+}
+
+
+.animate-welcome {
+  animation: welcomeMegaAnimation 5s ease-in-out forwards;
+}
+
+/* Анимация свечения */
+@keyframes glow {
+  0%,
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.4), 0 0 30px rgba(255, 255, 255, 0.3);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 0.7), 0 0 40px rgba(255, 255, 255, 0.6);
+  }
+}
+
+.animate-glow {
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+/* Анимация частичек */
+.floating-particles::before,
+.floating-particles::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(1, 0, 0, 0), rgba(255, 255, 255, 0));
+  border-radius: 50%;
+  animation: particleAnimation 10s infinite alternate ease-in-out;
+}
+
+.floating-particles::after {
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, rgba(3, 2, 2, 0), rgba(255, 255, 255, 0));
+}
+
+@keyframes particleAnimation {
+  0% {
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+}
+
+/* Анимация плавного появления секций */
+@keyframes sectionFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-section-fade-in {
+  animation: sectionFadeIn 1.5s ease-out forwards;
+}
