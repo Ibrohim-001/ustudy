@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import { FloatButton } from "antd";
 import CarouselCom from "../components/Carousel";
 import { useTranslation } from "react-i18next";
+import Vazifalarimiz from "../components/Vazifa";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -38,6 +39,7 @@ const Home = () => {
           >
             <section id="section1">
               <CarouselCom />
+              <Vazifalarimiz />
             </section>
             <section id="section2">
               <UzAbout />

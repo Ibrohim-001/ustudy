@@ -14,6 +14,7 @@ i18n.use(initReactI18next).init({
         welcome_message: "Xush kelibsiz!",
         Frontend: "Frontend",
         cybersecurity: "Kiberxavfsizlik",
+        About_course: "Kurs_haqida",
         motion_design: "Motion design",
         graphic_design: "Graphic design",
         backend: "Backend",
@@ -22,12 +23,13 @@ i18n.use(initReactI18next).init({
         join: "Ishtrok Etish",
         mainPage: "bosh sahifa",
         development: "dasturlash",
+        help: "Biz sizga to'g'ri kursni tanlashda yordam beramiz!",
         frontent:
           "Frontend dasturlash - bu dinamik va interaktiv veb-sahifalarni yaratishni o'zlashtirish uchun mo'ljallangan intensiv va amaliyotgayo'naltirilgan kursdir. Kurs HTML va CSS dan zamonaviy JavaScriptramkalar va TypeScriptgacha bo‘lgan texnologiyalarning to‘liqspektrini qamrab oladi, bu esa ishtirokchilarga Frontend ishlabchiqish sohasida yuqori malakali mutaxassislar bo‘lish imkonini beradi.",
         backent:
           "Python Back-end kursimiz bilan server tomonidagi rivojlanish dunyosiga chuqurroq kirib boring! Ishonchli va keng masshtabga ega veb-ilovalarni yaratish uchun kuchli vositalarni o'zlashtiring. Bizga qo'shiling va bugunoq IT-sohasida muvaffaqiyatli karyera qurishni boshlang!",
         ciber:
-          "'Kiberxavfsizlikka kirish' - bu chuqur kirish kursi va kiberxavfsizlik bo'yicha asosiy bilimlarni, shu jumladan asosiy tushunchalarni qamrab oladi kiberxavfsizlik, kriptografiya asoslari, kirishni boshqarish, tarmoq va kompyuter xavfsizlik, axborot xavfsizligiga tahdidlarning asosiy turlarini, shuningdek usullarini ochib beradi va ularga qarshi kurashish usullari. Kurs asosiy tushunchaga erishmoqchi bo'lgan har bir kishi uchun javob beradi ushbu sohaning asoslari.",
+          "'Kiberxavsizlikka kirish' - bu chuqur kirish kursi va kiberxavfsizlik bo'yicha asosiy bilimlarni, shu jumladan asosiy tushunchalarni qamrab oladi kiberxavfsizlik, kriptografiya asoslari, kirishni boshqarish, tarmoq va kompyuter xavfsizlik, axborot xavfsizligiga tahdidlarning asosiy turlarini, shuningdek usullarini ochib beradi va ularga qarshi kurashish usullari. Kurs asosiy tushunchaga erishmoqchi bo'lgan har bir kishi uchun javob beradi ushbu sohaning asoslari.",
         graphicDesc:
           "Bizning grafik dizayn kursimiz bilan ijodiy salohiyatingizni oching. Vizual muloqot olamiga sho'ng'ing va nafaqat tasvirlarni, balki samarali xabarlarni yaratuvchi ekspertga aylaning.",
         motionDesc:
@@ -45,11 +47,13 @@ i18n.use(initReactI18next).init({
         motion_design: "Motion-дизайн",
         graphic_design: "Графический дизайн",
         backend: "Бэкенд",
+        About_course: "О курсе:",
         study_with: "изучайте с",
         learn: "учитесь",
         join: "Присоединиться",
         mainPage: "главная страница",
         development: "разработка",
+        help: "Biz sizga to'g'ri kursni tanlashda yordam beramiz!",
         frontent:
           "Frontend разработка — это интенсивный и практико-ориентированный курс, предназначенный для освоения создания динамичных и интерактивных веб-страниц. Курс охватывает весь спектр технологий от HTML, CSS и JavaScript, позволяя участникам стать высококвалифицированными специалистами в области фронтенд разработки.",
         backent:
@@ -70,6 +74,7 @@ i18n.use(initReactI18next).init({
         advice: "Advice",
         contact: "Contact",
         welcome_message: "Welcome!",
+        help: "Biz sizga to'g'ri kursni tanlashda yordam beramiz!",
         frontent:
           "Frontend development - is an intensive and practice-oriented course designed to master the creation of dynamic and interactive web pages. The course covers the full range of technologies from HTML and CSS to modern JavaScript frameworks and TypeScript, allowing participants to become highly qualified specialists in the field of Frontend development.",
         backent:
