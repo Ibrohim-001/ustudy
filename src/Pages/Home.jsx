@@ -39,7 +39,9 @@ const Home = () => {
             <section id="section1">
               <CarouselCom />
             </section>
-            <section id="section2">{/* <UzAbout /> */}</section>
+            <section id="section2">
+              <UzAbout />
+            </section>
             <section id="section3">
               <Footer />
             </section>

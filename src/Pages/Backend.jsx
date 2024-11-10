@@ -1,6 +1,7 @@
 import CoureHero from "../components/CourseHero";
 import { useTranslation } from "react-i18next";
 import Footer from "../components/Footer";
+import UzAbout from "./uzAbout";
 
 function Backend() {
   const { t } = useTranslation();
@@ -10,6 +11,7 @@ function Backend() {
       {/* <section id="section3">
         <Footer />
       </section> */}
+      <UzAbout />
     </>
   );
 }
